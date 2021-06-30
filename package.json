@@ -1,0 +1,19 @@
+{
+  "name": "http_server",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000H\u0000T\u0000T\u0000P\u0000_\u0000S\u0000E\u0000R\u0000V\u0000E\u0000R\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drmorzek/HTTP_SERVER.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/drmorzek/HTTP_SERVER/issues"
+  },
+  "homepage": "https://github.com/drmorzek/HTTP_SERVER#readme"
+}

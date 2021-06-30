@@ -90,7 +90,7 @@ class Response {
 			for (const key in headers) {
 				this.setHeader(key, headers[key])
 			}
-			this.setHeader('Date', new Date().toGMTString())
+			this.setHeader('Date', new Date().toUTCString())
 			if (!this.headers['Content-Length']) {
 				this.isChunked = true
 				this.setHeader('Transfer-Encoding', 'chunked')
